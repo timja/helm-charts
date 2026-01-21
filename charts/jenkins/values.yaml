@@ -351,12 +351,6 @@ controller:
   disabledAgentProtocols:
     - JNLP-connect
     - JNLP2-connect
-  csrf:
-    defaultCrumbIssuer:
-      # -- Enable the default CSRF Crumb issuer
-      enabled: true
-      # -- Enable proxy compatibility. This setting is ignored if you are not on the current LTS release and will be dropped with the next LTS.
-      proxyCompatability: true
 
   # Kubernetes service type for the JNLP agent service
   # agentListenerServiceType is the Kubernetes Service type for the JNLP agent service,
